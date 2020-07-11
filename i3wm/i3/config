@@ -73,10 +73,10 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 #variables
-set $ws1 " 1 "
-set $ws2 " 2 "
-set $ws3 " 3 "
-set $ws4 " 4 "
+set $ws1 " 1  "
+set $ws2 " 2  "
+set $ws3 " 3  "
+set $ws4 " 4  "
 
 
 # switch to workspace
@@ -184,8 +184,8 @@ bar {
 hide_edge_borders both
 
 
-# Effects
-exec_always compton 
+# Effects and display manager
+exec_always compton --backend glx --vsync opengl-swc
 
 # no borders
 new_window pixel 0
