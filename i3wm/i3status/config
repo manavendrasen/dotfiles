@@ -1,16 +1,16 @@
 general {
         output_format = "i3bar"
-        colors = false
+        colors = true
         markup = pango
         interval = 5
         color_good = '#2f343f'
-		color_degraded = '#ebcb8b'
-		color_bad = '#ba5e57'
 }
 
+# 2f343f
+
 # order += "load"
-order += "cpu_temperature 0"
-# order += "disk /"
+# order += "cpu_temperature 0"
+order += "disk /"
 order += "disk /home"
 # order += "memory"
 # order += "ethernet enp1s0"
@@ -29,7 +29,7 @@ cpu_temperature 0 {
 }
 
 disk "/" {
-        format = "<span background='#fec7cd'>   </span><span background='#e5e9f0'> %free Free </span>"
+        format = "<span background='#fec7cd'>  </span><span background='#e5e9f0'> %free Free </span>"
 }
 
 disk "/home" {
@@ -60,7 +60,7 @@ volume master {
 
 battery 0 {
 	last_full_capacity = true
-        format = "<span background='#ff79c6'>  </span><span background='#e5e9f0'> %status %percentage </span>"
+        format = "<span background='#ff79c6'>  </span><span background='#e5e9f0'> %status %percentage </span>"
         format_down = "No Battery"
         status_chr = "Charging"
         status_bat = "Battery"
