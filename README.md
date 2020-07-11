@@ -27,13 +27,11 @@ If i3-wm, dunst, i3lock, i3status, and suckless-tools are not installed automati
 `sudo apt-get install i3-wm dunst i3lock i3status suckless-tools` <br />
 
 - **Then install some additional packages to make your desktop enjoyable** <br />
-`sudo apt-get install compton hsetroot rxvt-unicode xsel rofi fonts-noto fonts-mplus xsettingsd lxappearance scrot viewnior`
+`sudo apt-get install compton feh rofi fonts-noto fonts-mplus xsettingsd lxappearance`
 
-## Explanations of Additional Packages
+### Explanations of Additional Packages
 - Compton is a compositor to provide some desktop effects like shadow, transparency, fade, and transiton. 
-- Hsetroot is a wallpaper handler. i3 has no wallpaper handler by default.
-- URxvt is a lightweight terminal emulator, part of *i3-sensible-terminal*.
-- Xsel is a program to access X clipboard. We need it to make copy-paste in URxvt available. Hit Alt+C to copy, and Alt+V to paste. 
+- Feh is a wallpaper handler. i3 has no wallpaper handler by default.
 - Rofi is a program launcher, similar with dmenu but with more options.
 - Noto Sans and M+ are my favourite fonts used in my configuration.
 - Xsettingsd is a simple settings daemon to load fontconfig and some other options. Without this, fonts would look rasterized in some applications.
