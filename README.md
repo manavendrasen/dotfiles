@@ -13,7 +13,7 @@ I'm using KDE Neon, with i3 stock metapackages (i3wm, i3bar, i3status, i3lock, i
 ![Desktop](https://github.com/manavendrasen/dotfiles/blob/master/Preview_Desktop.png)
 **Clean**, without any opened app. Only i3bar is visible.
 
-![KDE](https://github.com/manavendrasen/dotfiles/blob/master/PreviewKDE.png)
+![KDE](https://github.com/manavendrasen/dotfiles/blob/master/Preview_KDE.png)
 **KDE setup**
 			
 ![Zsh](https://github.com/manavendrasen/dotfiles/blob/master/Preview_ZSH.png)
