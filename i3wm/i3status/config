@@ -1,0 +1,76 @@
+general {
+        output_format = "i3bar"
+        colors = false
+        markup = pango
+        interval = 5
+        color_good = '#2f343f'
+		color_degraded = '#ebcb8b'
+		color_bad = '#ba5e57'
+}
+
+# order += "load"
+order += "cpu_temperature 0"
+# order += "disk /"
+order += "disk /home"
+# order += "memory"
+# order += "ethernet enp1s0"
+order += "wireless wlp3s0"
+# order += "volume master"
+order += "battery 0"
+order += "tztime local"
+
+load {
+        format = "<span background='#ff5555'>  </span><span background='#e5e9f0'> %5min Load </span>"
+}
+
+cpu_temperature 0 {
+        format = "<span background='#ff5555'>  </span><span background='#e5e9f0'> %degrees °C </span>"
+        path = "/sys/class/thermal/thermal_zone0/temp"
+}
+
+disk "/" {
+        format = "<span background='#fec7cd'>   </span><span background='#e5e9f0'> %free Free </span>"
+}
+
+disk "/home" {
+        format = "<span background='#f1fa8c'>  </span><span background='#e5e9f0'> %free Free </span>"
+}
+
+#memory {
+#        format = "<span background='#f1fa8c'>  </span><span background='#e5e9f0'> %percentage_free Free </span>"
+#}
+
+ethernet enp1s0 {
+        format_up = "<span background='#88c0d0'>  %ip </span>"
+        format_down = "<span background='#88c0d0'>  Disconnected </span>"
+}
+
+wireless wlp3s0 {
+        format_up = "<span background='#50fa7b'>  </span><span background='#e5e9f0'> %essid </span>"
+        format_down = "<span background='#50fa7b'>  </span><span background='#e5e9f0'> Disconnected </span>"
+}
+
+volume master {
+        format = "<span background='#ebcb8b'>%volume </span>"
+        format_muted = "<span background='#ebcb8b'>  Muted </span>"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
+
+battery 0 {
+	last_full_capacity = true
+        format = "<span background='#ff79c6'>  </span><span background='#e5e9f0'> %status %percentage </span>"
+        format_down = "No Battery"
+        status_chr = "Charging"
+        status_bat = "Battery"
+        status_unk = "Unknown"
+        status_full = "Charged"
+        path = "/sys/class/power_supply/BAT0/uevent"
+        low_threshold = 10
+}
+
+tztime local {
+		format = "<span background='#8be9fd'>  </span><span background='#e5e9f0'> %time </span>"
+		format_time = "%a %-d %b %H:%M "
+}
