@@ -10,8 +10,8 @@ general {
 
 # order += "load"
 # order += "cpu_temperature 0"
-order += "disk /"
-order += "disk /home"
+# order += "disk /"
+# order += "disk /home"
 # order += "memory"
 # order += "ethernet enp1s0"
 order += "wireless wlp3s0"
