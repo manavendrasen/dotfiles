@@ -62,3 +62,8 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 - **Super + L** Lockscreen. To unlock, type your user password then hit Enter
 - **Super + Shift + R** Fully reload the configuration file. Hit this after do some modifications in the config file
 - More keybind look on the configuration file.
+
+## Credits 
+🤗😊 **Thanks!!** 🤗😊
+- [@rpieja](https://github.com/rpieja) - for the spotify script
+- [@csssuf](https://gist.github.com/csssuf) - for spotify .awk file 
