@@ -1,3 +1,5 @@
+# Manavendra Sen's i3status conf
+
 general {
         output_format = "i3bar"
         colors = true
