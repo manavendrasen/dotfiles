@@ -51,9 +51,9 @@ Logout your current session. Then login again with i3 session. <br />
 
 ## Some Cheatsheet
 My keybind is pretty weird, I'm more focus on easy to memorize <br />
-- **Super + Shift + D** Launch dmenu
-- **Super + D** Launch dmenu alternative called Rofi
-- **Super + Enter** Launch i3-sensible-terminal, URxvt in this case
+- **Super + Shift + D** Launch rofi
+- **Super + D** Launch dmenu. 
+- **Super + Enter** Launch Terminator in this case
 - **Super + Arrow** Change focused window, if You have two or more windows in the workspace
 - **Super + Shift + Arrow** Send focused window to another edge of the screen, if You have two or more windows in the workspace
 - **Super + H** and **Super + V** Change split direction to horizontal or vertical
@@ -65,7 +65,6 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 - **Super + R** Resize mode. In resize mode, hit Arrow keys to do resizing. Hit Enter to back to normal mode
 - **Super + C** or **Alt + F4** Close window
 - **Super + Q** Quit i3wm
-- **Super + L** Lockscreen. To unlock, type your user password then hit Enter
 - **Super + Shift + R** Fully reload the configuration file. Hit this after do some modifications in the config file
 - More keybind look on the configuration file.
 
