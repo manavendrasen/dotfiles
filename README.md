@@ -10,6 +10,8 @@ I'm using KDE Neon, with i3 stock metapackages (i3wm, i3bar, i3status, i3lock, i
 - Terminal: Terminator
 ```
 ## Preview 
+[![Video](http://img.youtube.com/vi/BG7YUK5gCMw/0.jpg)](http://www.youtube.com/watch?v=BG7YUK5gCMw)
+<br/>
 ![Desktop](https://github.com/manavendrasen/dotfiles/blob/master/Preview_Desktop.png)
 **Clean**, without any opened app. Only i3bar is visible.
 
