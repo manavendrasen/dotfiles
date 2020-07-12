@@ -19,6 +19,12 @@ I'm using KDE Neon, with i3 stock metapackages (i3wm, i3bar, i3status, i3lock, i
 ![Zsh](https://github.com/manavendrasen/dotfiles/blob/master/Preview_ZSH.png)
 **Minimal** zsh prompt with pfetch.
 
+![Workspaces](https://github.com/manavendrasen/dotfiles/blob/master/Preview_Workspaces.png)
+**Font Awesome Icons** on workspace indicators
+
+![Spotify](https://github.com/manavendrasen/dotfiles/blob/master/Preview_Spotify.png)
+**Spotify Song indicator**
+
 ## Why i3?
 i3 is (arguably) the most easiest tiling window manager to learn and configure. And i3 has a really good documentation, including example command and troubleshooting. The community is also quite large. You will easily get more customization examples. So, I really recommend You to start from i3 if You want learn Linux customization. After You can handle i3, You can try more advanced window managers.
 
