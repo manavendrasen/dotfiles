@@ -18,6 +18,8 @@ Video preview [here](http://www.youtube.com/watch?v=BG7YUK5gCMw)
 **KDE setup**
 ![Zsh](https://github.com/manavendrasen/dotfiles/blob/master/images/Preview_ZSH.jpeg)
 **Minimal** zsh prompt with a custom neofetch.
+![Rofi](https://github.com/manavendrasen/dotfiles/blob/master/images/Preview_Rofi.jpeg)
+**Minimal** Rofi Launcher.
 
 ## Why i3?
 
