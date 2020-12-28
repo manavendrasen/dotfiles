@@ -3,13 +3,14 @@
 export ZSH="/home/mavn/.oh-my-zsh"
 
 # on startup
-pfetch  
+# neofetch --ascii_distro arcolinux_small  
+~/color-scripts/color-scripts/crunchbang-mini
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="avit"
+ZSH_THEME="af-magic"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -99,3 +100,12 @@ source $HOME/.aliases.zsh
 
 #Plugins
 source /home/mavn/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export PATH=/snap/bin:$PATH
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+export PATH=$HOME/.config/rofi/bin:$PATH
