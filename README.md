@@ -3,27 +3,25 @@
 ## Introduction
 I'm using KDE Neon, with i3 stock metapackages (i3wm, i3bar, i3status, i3lock, i3-sensible-terminal, and i3-dmenu-desktop). 
 ```
-- OS: KDE neon User Edition 5.19 x86_64 
-- Kernel: 5.3.0-62-generic
-- Shell: zsh 5.4.2
 - WM: i3
+- Shell : zsh
 - Terminal: Terminator
 ```
 ## Preview 
 Video preview [here](http://www.youtube.com/watch?v=BG7YUK5gCMw)
-![Desktop](https://github.com/manavendrasen/dotfiles/blob/master/Preview_Desktop.png)
+![Desktop](https://github.com/manavendrasen/dotfiles/blob/master/images/Preview_Desktop.png)
 **Clean**, without any opened app. Only i3bar is visible.
 
-![KDE](https://github.com/manavendrasen/dotfiles/blob/master/Preview_KDE.png)
+![KDE](https://github.com/manavendrasen/dotfiles/blob/master/images/Preview_KDE.png)
 **KDE setup**
 			
-![Zsh](https://github.com/manavendrasen/dotfiles/blob/master/Preview_ZSH.png)
+![Zsh](https://github.com/manavendrasen/dotfiles/blob/master/images/Preview_ZSH.png)
 **Minimal** zsh prompt with pfetch.
 
-![Workspaces](https://github.com/manavendrasen/dotfiles/blob/master/Preview_Workspaces.png)
+![Workspaces](https://github.com/manavendrasen/dotfiles/blob/master/images/Preview_Workspaces.png)
 **Font Awesome Icons** on workspace indicators
 
-![Spotify](https://github.com/manavendrasen/dotfiles/blob/master/Preview_Spotify.png)
+![Spotify](https://github.com/manavendrasen/dotfiles/blob/master/images/Preview_Spotify.png)
 **Spotify Song indicator**
 
 ## Why i3?
@@ -73,3 +71,4 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 🤗😊 **Thanks!!** 🤗😊
 - [@rpieja](https://github.com/rpieja) - for the spotify script
 - [@csssuf](https://gist.github.com/csssuf) - for spotify .awk file 
+- [@adi1090x](https://github.com/adi1090x/rofi) - for rofi confs 
