@@ -17,13 +17,7 @@ Video preview [here](http://www.youtube.com/watch?v=BG7YUK5gCMw)
 ![KDE](https://github.com/manavendrasen/dotfiles/blob/master/images/Preview_KDE.jpeg)
 **KDE setup**
 ![Zsh](https://github.com/manavendrasen/dotfiles/blob/master/images/Preview_ZSH.jpeg)
-**Minimal** zsh prompt with pfetch.
-
-![Workspaces](https://github.com/manavendrasen/dotfiles/blob/master/images/Preview_Workspaces.png)
-**Font Awesome Icons** on workspace indicators
-
-![Spotify](https://github.com/manavendrasen/dotfiles/blob/master/images/Preview_Spotify.png)
-**Spotify Song indicator**
+**Minimal** zsh prompt with a custom neofetch.
 
 ## Why i3?
 
