@@ -25,5 +25,8 @@ alias dev="figlet dev-mode activated | lolcat ; code && /usr/bin/brave-browser-s
 alias mfetch="neofetch --ascii_distro arch_small -ascii_bold=on"
 alias color="~/color-scripts/color-scripts/crunchbang-mini"
 
-#scrcpy
+# scrcpy
 alias a50="adb connect 192.168.1.100:5555 ; scrcpy --window-title 'mavn@a50'"
+
+# nvim
+alias v="nvim"

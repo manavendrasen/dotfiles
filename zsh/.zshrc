@@ -109,3 +109,15 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export PATH=$HOME/.config/rofi/bin:$PATH
+
+# Import colorscheme from 'wal' asynchronously
+# &   # Run the process in the background.
+# ( ) # Hide shell job control messages.
+# Not supported in the "fish" shell.
+#(cat ~/.cache/wal/sequences &)
+
+# Alternative (blocks terminal for 0-3ms)
+# cat ~/.cache/wal/sequences
+
+# To add support for TTYs this line can be optionally added.
+#source ~/.cache/wal/colors-tty.sh
